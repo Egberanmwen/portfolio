@@ -1,0 +1,215 @@
+:root{
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0,0,0.0.3);
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;   
+} 
+#navDiv{
+    margin-left: 5rem;
+}
+.btnDiv{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.firstContent{
+    position: relative;
+    top: 3rem;
+}
+.content{
+    position: relative;
+    top: 3rem;
+}
+#containerOne{
+    margin-left: 7rem;
+    margin-right: 7rem; 
+}
+.purpleBtn{
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    margin-left: 1rem;
+}
+#aboutBtn{
+    margin-left: 2rem;
+    background-color: var(--bs-white);
+    border: 1px solid var(--primary-color);
+    color: var(--bs-purple);
+}
+.purpleBtn:hover{
+    color: var(--bs-blue);
+}
+#aboutBtn:hover{
+    color: var(--bs-blue);
+}
+.firstBtn{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.appBtn{
+    white-space: nowrap;
+    text-decoration: none;
+    margin: 30px 0;
+}
+.rows{
+    position: relative;
+    top: 4rem;
+}
+.header{
+    font-weight: 700;
+}
+#yogaRow{
+    margin-top: 2.5rem;
+}
+.margin-left{
+    margin-left: 6rem;
+}
+.appText{
+    margin-top: 1rem;
+    width: 97%;
+}
+h1,h3{
+    margin-left: 1rem;
+}
+p{
+    margin-left: 0.5rem;
+}
+#location{
+    color: #666;
+    opacity: 0.7;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.aboutText{
+    color: #555;
+}
+.text{
+    width: 96%;
+}  
+.aboutNav{
+    padding: 10px;
+    width: 100%;
+}
+.contactMe{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#emailLink{
+    text-decoration: none;
+    font-size: 26px;
+}
+body{
+    color: #fff;
+}
+#aboutYogaImage{
+    margin-top: 0.5rem;
+}
+#aboutTextDiv{
+    text-align: center !important;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#aboutMe{
+    font-size: 7rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+}
+@media (min-width: 360px) {
+    .header{
+        white-space: nowrap;
+    }
+    .text{
+        width: 340px; 
+    }
+    .appBtn{
+        position: relative;
+        right: -0.5rem;
+    }
+    #containerOne{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media (min-width: 400px) {
+    .text{
+        width: 100%;
+    }
+}
+@media (min-width: 810px) {
+    #navBrand{
+        width: 830px;
+    }
+    #toggleIcon{
+        margin-right: 2rem;
+    }
+    .header{
+        white-space: nowrap;
+        position: relative;
+        left: 1.5rem;
+    }
+    .text{
+        width: 80%;
+        position: relative;
+        left: 2rem;
+    }
+    .appBtn{
+        position: relative;
+        left: 2.5rem;
+    }
+    #weatherImage{
+        position: relative;
+        right: 1.5rem;
+    }
+    /* #yoghourtImage,#yogaImage{ */
+    #containerOne{
+        margin-left: 1.5rem;
+    }   
+}
+@media (min-width: 1200px) {
+    #navBrand{
+        width: 100%;
+    }
+    #toggleIcon{
+        display: none;
+    }
+    #containerOne{
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
+@media (min-width: 1500px) {
+    #navBrand{
+        width: 100%;
+    }
+    #toggleIcon{
+        display: none;
+    }
+    #containerOne{
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
